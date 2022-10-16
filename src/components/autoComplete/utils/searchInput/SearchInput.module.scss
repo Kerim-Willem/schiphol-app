@@ -2,7 +2,7 @@
 @import "../../../../styles/transitions";
 
 .textarea {
-  appearance: none; // remove stubborn browser stuff
+  appearance: none;
   background-color: $white;
   border: 0.0625rem solid $grey-scattered;
   border-bottom-color: $grey-overcast;

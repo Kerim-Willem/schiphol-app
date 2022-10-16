@@ -1,4 +1,3 @@
-// /* eslint-disable @typescript-eslint/no-explicit-any */
 import { IFlight } from "interfaces/IWidget";
 
 export function WidgetCard({
@@ -12,7 +11,7 @@ export function WidgetCard({
   return (
     <div>
       <div
-        className="col-12 my-3 mx-2 cursor-pointer rounded bg-white shadow-lg duration-500 ease-in-out hover:shadow-heavyShadow"
+        className="col-12 my-3 mx-2 cursor-pointer rounded border bg-white shadow-sm duration-500 ease-in-out hover:shadow-lg"
         onClick={() => {
           console.log("url: ", url);
           window.location.href = "https://www.youtube.com/watch?v=o-YBDTqX_ZU";

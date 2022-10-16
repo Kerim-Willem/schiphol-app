@@ -11,9 +11,6 @@ module.exports = {
       fontFamily: {
         FrutigerNeue: "FrutigerNeue",
       },
-      boxShadow: {
-        heavyShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px;",
-      },
     },
   },
   plugins: [],
