@@ -7,7 +7,3 @@ export interface IFlight {
   url: string;
   score: string;
 }
-
-export interface IWidget {
-  flights: IFlight[];
-}
